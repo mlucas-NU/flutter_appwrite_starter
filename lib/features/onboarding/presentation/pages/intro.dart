@@ -16,7 +16,7 @@ class IntroPage extends StatelessWidget {
             children: <Widget>[
               //implement intro screen
               Spacer(),
-              RaisedButton(
+              ElevatedButton(
                 onPressed: () {
                   _finishIntroScreen(context);
                 },

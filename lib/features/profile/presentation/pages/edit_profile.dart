@@ -165,7 +165,7 @@ class _EditProfileState extends State<EditProfile> {
                     ),
                   ],
                 ),
-                FlatButton(
+                TextButton(
                   onPressed: () {
                     Navigator.pop(context);
                   },

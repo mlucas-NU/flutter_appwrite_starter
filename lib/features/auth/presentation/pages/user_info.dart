@@ -19,7 +19,7 @@ class UserInfoPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(user.email),
-            RaisedButton(
+            ElevatedButton(
               child: Text(AppLocalizations.of(context).logoutButtonText),
               onPressed: () {
                 context.read(userRepoProvider).signOut();
